@@ -41,6 +41,8 @@ const App = () => {
         </div>)
        })
       }
+
+      <h2>Check weather</h2>
     </div>
   )
 }
