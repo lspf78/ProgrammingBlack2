@@ -21,9 +21,7 @@ const App = () => {
     newCustomers.push(response)
     setCustomers(newCustomers)
   }
-
-  return (
-    
+  return(
     <div className="App">
       <h1>Super Simple React App</h1>
       <div>
@@ -46,5 +44,4 @@ const App = () => {
     </div>
   )
 }
-
 export default App;
