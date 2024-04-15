@@ -23,12 +23,12 @@ const App = () => {
   }
   return(
     <div className="App">
-      <h1>Super Simple React App</h1>
+      <h1>Durham Weather App</h1>
       <div>
           <input placeholder="customer id" type="text" value={input} onChange={(e) => setInput(e.target.value)}/>      
       </div>
       <br/>
-      <button onClick={() => getCustomer({input})}>Get Customer From Backend</button>
+      <button onClick={() => getCustomer({input})}>Check the weather for me</button>
 
       <h2 style={{visibility: customers.length > 0 ? 'visible' : 'hidden' }}>Response</h2>
       {
@@ -44,4 +44,5 @@ const App = () => {
     </div>
   )
 }
+
 export default App;
