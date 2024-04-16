@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { get } from 'aws-amplify/api';
 import React, { useEffect, useState } from 'react'
+import Weather from './Weather';
 
 const myAPI = "api60348747"
 const path = '/customers'; 
@@ -41,6 +42,7 @@ const App = () => {
       }
 
       <h2>Check weather</h2>
+      <Weather />
     </div>
   )
 }
