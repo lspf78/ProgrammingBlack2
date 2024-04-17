@@ -15,7 +15,7 @@
       "function": {
         "CustomerHandler": {
           "deploymentBucketName": "amplify-awsweatherapp-dev-a5ab2-deployment",
-          "s3Key": "amplify-builds/CustomerHandler-7577616d334e37525356-build.zip"
+          "s3Key": "amplify-builds/CustomerHandler-795a785a476f63385154-build.zip"
         }
       },
       "api": {

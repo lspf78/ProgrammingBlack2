@@ -1,0 +1,19 @@
+
+body{
+  margin: auto;
+  width: 640px; 
+  padding: 50px;
+  font-size: xx-large;
+  font-family: 'Lexend Deca', sans-serif; 
+  color:aliceblue;    
+  background-image: url("weather2.jpeg");
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+
+}
+* {
+
+  text-align: center;
+  
+  }
+  
