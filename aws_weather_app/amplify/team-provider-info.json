@@ -43,13 +43,19 @@
     },
     "categories": {
       "function": {
-        "CustomerHandler": {}
+        "CustomerHandler": {
+          "deploymentBucketName": "amplify-awsweatherapp-devr-224600-deployment",
+          "s3Key": "amplify-builds/CustomerHandler-745242526d494b625559-build.zip"
+        }
       },
       "hosting": {
         "amplifyhosting": {
           "appId": "d30hlj84mvx9h5",
           "type": "manual"
         }
+      },
+      "api": {
+        "api60348747": {}
       }
     }
   }

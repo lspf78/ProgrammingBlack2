@@ -61,9 +61,9 @@ const Weather = () => {
           <p>Wind Speed : {weatherData.wind.speed}m/s</p>
         </>
       ) : (
-        <p>Loading weather data...</p>
+        <p>Preparing weather data...</p>
       )}
-    <div class="loader" id="loader"></div>
+   
     </div>
     
   );
