@@ -15,35 +15,11 @@
       "function": {
         "CustomerHandler": {
           "deploymentBucketName": "amplify-awsweatherapp-dev-a5ab2-deployment",
-          "s3Key": "amplify-builds/CustomerHandler-795a785a476f63385154-build.zip"
+          "s3Key": "amplify-builds/CustomerHandler-7577616d334e37525356-build.zip"
         }
       },
       "api": {
         "api60348747": {}
-      },
-      "hosting": {
-        "amplifyhosting": {
-          "appId": "d30hlj84mvx9h5",
-          "type": "manual"
-        }
-      }
-    }
-  },
-  "devr": {
-    "awscloudformation": {
-      "AuthRoleName": "amplify-awsweatherapp-devr-224600-authRole",
-      "UnauthRoleArn": "arn:aws:iam::471112930518:role/amplify-awsweatherapp-devr-224600-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::471112930518:role/amplify-awsweatherapp-devr-224600-authRole",
-      "Region": "eu-north-1",
-      "DeploymentBucketName": "amplify-awsweatherapp-devr-224600-deployment",
-      "UnauthRoleName": "amplify-awsweatherapp-devr-224600-unauthRole",
-      "StackName": "amplify-awsweatherapp-devr-224600",
-      "StackId": "arn:aws:cloudformation:eu-north-1:471112930518:stack/amplify-awsweatherapp-devr-224600/e0bb13f0-fd03-11ee-9854-0e2deca0118c",
-      "AmplifyAppId": "d30hlj84mvx9h5"
-    },
-    "categories": {
-      "function": {
-        "CustomerHandler": {}
       },
       "hosting": {
         "amplifyhosting": {
